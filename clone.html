@@ -6,24 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .box{
-            border: 2px solid;
-            margin-left: 60px;
+        summary {
+            list-style: none;
+        }
+
+        summary:-marker {
+            display: none;
         }
     </style>
 </head>
 
 <body>
-    <img src="bg.png" alt="">
+
     <header>
         <details>
             <summary>&#9776;</summary>
             <nav>
-                <ul>
-                    <a href="home.html">
+                <ul class="nav-links" id="navLinks">
+                    <a href="#home">
                         <li>home</li>
                     </a>
-                    <a href="/about">
+                    <a href="#about">
                         <li>about</li>
                     </a>
                     <a href="index.html">
@@ -31,15 +34,48 @@
                     </a>
                 </ul>
             </nav>
-        </details>
+
     </header>
     <h1>Welcome to Icemake Engineers</h1>
-    <div class="box">
-         <img src="ac.png" alt="ac_image">
-    </div>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus tempora optio nihil blanditiis,
-        necessitatibus odio cum tenetur sint nesciunt mollitia eum error voluptates illo corporis?
-    </p>
+    <section id="home">
+
+        <div class="row">
+            <img src="ac.png" alt="ac_image">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus tempora optio nihil blanditiis,
+                necessitatibus odio cum tenetur sint nesciunt mollitia eum error voluptates illo corporis?
+            </p>
+        </div>
+
+
+    </section>
+    <section id="about">
+        <h1>daikin show room</h1>
+        <h3>
+            <ul>
+                <li>Air Condition Items</li>
+            </ul>
+        </h3>
+        <p>Refrigerant: A substance that absorbs heat from the indoor air and releases it outside, cooling the air.
+            1
+            Compressor: Increases the pressure and temperature of the refrigerant gas, facilitating the cooling process.
+            1
+            Condenser: Rejects heat from the refrigerant gas, converting it into liquid.
+            1
+            Evaporator: Absorbs heat from the indoor air, causing the refrigerant to evaporate and cool the air.
+            1
+            Thermostat: Controls the temperature and fan speed of the air conditioning system.
+            1
+
+            These components work together to maintain a comfortable indoor environment by regulating temperature,
+            humidity, and air qualit</p>
+        <div class="map-box">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.1783412657887!2d72.47303867514044!3d23.01722317917757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b3101dce31f%3A0xdbe042d1116ea861!2sSoBo%20Center!5e0!3m2!1sen!2sin!4v1764242161083!5m2!1sen!2sin"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
 </body>
 
 </html>
