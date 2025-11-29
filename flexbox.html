@@ -7,23 +7,37 @@
     <title>Document</title>
 
     <style>
-        .container{
+        .container {
             display: flex;
             justify-content: center;
             background-color: rgb(32, 91, 71);
+            /* align-content: center; */
+            flex-wrap: wrap;
+            flex-direction: row;
+            height: 100hv;
+            align-items: center; 
         }
+
         .box1 {
             background-color: red;
             height: 100px;
             width: 100px;
             border: 2px solid black;
+            /* border-radius: 50px 10px; */
+            text-align: center;
+            /* order: ; sir nathi thatu kai karo */
         }
 
+        *{
+            cursor: move;
+        }
         .box2 {
             background-color: yellow;
             height: 100px;
             width: 100px;
             border: 2px solid black;
+            border-radius: 5px;
+
         }
 
         .box3 {
@@ -38,10 +52,8 @@
             height: 100px;
             width: 100px;
             border: 2px solid black;
-        }
-
-        p {
-            vertical-align: text-bottom;
+            border-radius: 5px;
+            order: 1;
         }
     </style>
 </head>
