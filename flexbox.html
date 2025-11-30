@@ -11,11 +11,12 @@
             display: flex;
             justify-content: center;
             background-color: rgb(32, 91, 71);
-            /* align-content: center; */
+            align-content: center;
             flex-wrap: wrap;
             flex-direction: row;
             height: 100hv;
-            align-items: center; 
+            /* align-items: center;  */
+            text-align: center;
         }
 
         .box1 {
@@ -23,20 +24,17 @@
             height: 100px;
             width: 100px;
             border: 2px solid black;
-            /* border-radius: 50px 10px; */
-            text-align: center;
-            /* order: ; sir nathi thatu kai karo */
+            order: 3;
         }
 
-        *{
-            cursor: move;
-        }
+        
         .box2 {
             background-color: yellow;
             height: 100px;
             width: 100px;
             border: 2px solid black;
             border-radius: 5px;
+            order: 4;
 
         }
 
@@ -45,6 +43,7 @@
             height: 100px;
             width: 100px;
             border: 2px solid black;
+            order: 1;
         }
 
         .box4 {
@@ -53,7 +52,7 @@
             width: 100px;
             border: 2px solid black;
             border-radius: 5px;
-            order: 1;
+            order: 2;
         }
     </style>
 </head>
