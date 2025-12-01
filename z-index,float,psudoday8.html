@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        header {
+            background-color:cornflowerblue;
+            top: 0;
+            position: sticky;
+        }
+
+        
+
+        nav {
+            overflow: hidden;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            justify-items: center;
+
+
+        }
+
+        li {
+            list-style: none;
+            display: inline;
+            padding: 12px;
+            color: green;
+            border: 2px solid black;
+            border-radius: 10px;
+
+
+        }
+
+        li:hover {
+            background-color: black;
+            color: white;
+            border-color: blue;
+        }
+
+        .box1 {
+            position: relative;
+            z-index: 1;
+            border: dashed;
+            height: 8em;
+            bottom: 1em;
+            top: 2em;
+            background: rebeccapurple;
+        }
+
+        .box2 {
+            position: absolute;
+            z-index: 2;
+            background: gold;
+            width: 100px;
+            left: 60px;
+            top: 3em;
+        }
+
+        .box3 {
+            position: relative;
+            z-index: 2;
+            background: lightgreen;
+            width: 150px;
+            left: 300px;
+            top: -25px;
+            height: 7em;
+        }
+
+        .overflow {
+            border: 2px solid;
+            height: 100px;
+            background: red;
+            overflow: scroll;
+            /* overflow: hidden;
+            overflow: visible;
+            overflow: auto; */
+
+        }
+
+        .jashu {
+            border: 2px solid black;
+            background: red;
+            overflow: scroll;
+            height: 500px;
+        }
+
+        .bg {
+            border-radius: 20px;
+            float: right;
+        }
+
+        div {
+            border: 2px solid;
+            padding: 10px;
+        }
+
+        .img1 {
+            float: right;
+        }
+
+        .img2 {
+            float: right;
+        }
+
+        .clearfix {
+            clear: both;
+            /*this using coneten below the content*/
+            display: table;
+            /*table space give becuese the content image collspace*/
+        }
+        h2{
+            text-align: center;
+            background-color: black;
+            color: white;
+            text-transform: uppercase;
+            text-decoration:double;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+               <li> <a href="#home">
+                    home</li>
+                </a>
+                <li><a href="#about">
+                    about</li>
+                </a>
+               <li> <a href="#content">
+                    content</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+   
+    
+    <!-- this over flow  -->
+    <h2>overflow</h2>
+    <div class="overflow">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum itaque quae, ex ab
+        reprehenderit ducimus explicabo sit asperiores rerum repellendus exercitationem eveniet quisquam ipl0vccvmzdlsjg
+        g9GYP WE 9EYF8EYGCF 8 80vw GF 82YRPI YG8PQG2E8P QGWHBDSHPCEGFYYWDHUCBDPHCDW8PCG CHY GY.</div>
+        
+        <!-- float -->
+        <div class="jashu">
+            <section id="home">
+                
+                
+                <img class="bg" src="bg.jpeg" alt="image">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, ducimus! Maxime molestiae consequuntur ut
+                quia
+                beatae, rerum totam eius aliquid laboriosam praesentium labore voluptatem ducimus cupiditate exercitationem
+                nobis. Minima suscipit ratione exercitationem non quasi voluptatibus ab pariatur incidunt rerum, earum
+                similique
+                fuga mollitia saepe labore tempore alias repudiandae explicabo hic ad consequuntur nobis vel est? Ullam
+                quisquam
+                iure dolorem dicta ab deleniti sapiente dolore nemo? Odit in quaerat nisi eligendi molestiae qui, aliquid
+                sapiente nam laboriosam mollitia dicta vero natus hic quidem facilis officiis quia odio explicabo sint
+                ducimus?
+                Aut tempora tempore, nostrum, similique totam enim, accusamus placeat et aliquid porro exercitationem?
+                Veniam
+                nesciunt ad consequuntur necessitatibus provident quasi voluptatem! Sequi molestias quisquam aliquid dolore,
+                sunt rem vitae mollitia culpa velit laudantium nostrum eos esse, veniam obcaecati harum tempora ullam
+                veritatis
+                dignissimos explicabo sed officiis. Aliquid architecto laboriosam suscipit iste voluptates. Minima earum qui
+                magnam illo rerum ullam cumque eum saepe exercitationem quasi. Cumque doloremque velit, dignissimos minus
+                temporibus possimus! Consequuntur necessitatibus a nobis repellendus, praesentium aliquid iste vero
+                similique
+                tempore. Dolorum aliquid repellat, placeat ad eaque nemo dolore ipsum eos! Ratione veritatis est possimus
+                laborum ipsam voluptatibus ad blanditiis non perferendis iste quas, numquam maxime eius voluptate ipsum
+                distinctio magni adipisci inventore ullam recusandae odio minima alias? Obcaecati, labore ducimus doloribus
+                magni similique adipisci, sequi blanditiis corrupti necessitatibus, totam sapiente eos! Modi veniam aliquam
+                maxime enim, labore amet explicabo fuga quam provident ratione aspernatur iure quibusdam hic sunt inventore
+                delectus nam sed cumque atque. Odio excepturi est iusto totam, laboriosam temporibus dolorum dignissimos,
+                laborum vitae voluptas nemo ab culpa et unde. Impedit cumque eius a praesentium itaque porro voluptate ad
+                adipisci nihil, voluptatibus atque eveniet magnam excepturi eos ab ex quia quas quidem voluptatem qui
+                tempora
+                inventore assumenda saepe! Deleniti maiores adipisci odit maxime quisquam, molestias laborum temporibus
+                consequatur. Rerum dolor voluptatibus commodi cumque, ab inventore autem ad iusto sint molestiae iste
+                officiis
+                libero sequi assumenda ipsa dignissimos quam ratione aliquid esse itaque ea veritatis repudiandae. Facere
+                doloremque facilis, perferendis architecto adipisci sequi animi placeat officiis, beatae similique
+                cupiditate
+                , provident ex? Quia praesentium et optio quo expedita quod repellat magnam at ab, reprehenderit
+                molestias esse ut exercitationem saepe est error, ullam eaque! Modi commodi ut unde numquam harum voluptatum
+                quam consequatuassumenda! Beatae nemo in sint repudiandae cumque excepturi autem, nobis, dicta
+                assumenda accusamus fugit quis omnis ratione. Odit, labore. Eaque fugit velit saepe repellendus magni,
+                inventore
+                molestiae ipsa qui incidunt vero dolorem mollitia blanditiis sequi reprehenderit, iure consectetur. Quas
+                magnam illum provident in quasi ipsum sunt sint, modi doloribus mollitia? Hic, officia
+                dolore!
+            </section>
+        </div>
+    </div>
+    <!-- psudo code -->
+    <section id="about"></section>
+    <div> <img class="img1" src="bg.jpeg" alt="image">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum at provident, quas et sit est, similique
+        voluptatibus ab, corporis adipisci nulla labore praesentium veniam totam!
+    </div>
+    <div class="clearfix">
+        <img class="img2" src="bg.jpeg" alt="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione
+        voluptas
+        iste optio fuga
+        recusandae quo atque id repellat, adipisci ab.
+    </div>
+     <!-- z-index lower stack order -->
+    <br><section id="content">
+    
+        <div class="box">
+            <div class="box1">box1</div>
+            <div class="box3">box3</div>
+    </section>
+    </div>
+</body>
+
+</html>
